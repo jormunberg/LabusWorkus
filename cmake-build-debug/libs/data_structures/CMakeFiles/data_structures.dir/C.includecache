@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix.c
+matrix.h
+C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix.h
+
+C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix.h
+

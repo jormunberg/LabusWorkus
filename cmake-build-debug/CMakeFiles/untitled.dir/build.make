@@ -69,19 +69,66 @@ CMakeFiles/untitled.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/main.c.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\vladi\CLionProjects\untitled\main.c -o CMakeFiles\untitled.dir\main.c.s
 
+CMakeFiles/untitled.dir/libs/data_structures/matrix/matrix.c.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/libs/data_structures/matrix/matrix.c.obj: ../libs/data_structures/matrix/matrix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled.dir/libs/data_structures/matrix/matrix.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled.dir\libs\data_structures\matrix\matrix.c.obj   -c C:\Users\vladi\CLionProjects\untitled\libs\data_structures\matrix\matrix.c
+
+CMakeFiles/untitled.dir/libs/data_structures/matrix/matrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/libs/data_structures/matrix/matrix.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\vladi\CLionProjects\untitled\libs\data_structures\matrix\matrix.c > CMakeFiles\untitled.dir\libs\data_structures\matrix\matrix.c.i
+
+CMakeFiles/untitled.dir/libs/data_structures/matrix/matrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/libs/data_structures/matrix/matrix.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\vladi\CLionProjects\untitled\libs\data_structures\matrix\matrix.c -o CMakeFiles\untitled.dir\libs\data_structures\matrix\matrix.c.s
+
+CMakeFiles/untitled.dir/libs/algoritms/array/array.c.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/libs/algoritms/array/array.c.obj: ../libs/algoritms/array/array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled.dir/libs/algoritms/array/array.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled.dir\libs\algoritms\array\array.c.obj   -c C:\Users\vladi\CLionProjects\untitled\libs\algoritms\array\array.c
+
+CMakeFiles/untitled.dir/libs/algoritms/array/array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/libs/algoritms/array/array.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\vladi\CLionProjects\untitled\libs\algoritms\array\array.c > CMakeFiles\untitled.dir\libs\algoritms\array\array.c.i
+
+CMakeFiles/untitled.dir/libs/algoritms/array/array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/libs/algoritms/array/array.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\vladi\CLionProjects\untitled\libs\algoritms\array\array.c -o CMakeFiles\untitled.dir\libs\algoritms\array\array.c.s
+
+CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.obj: ../libs/algoritms/algoritms.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled.dir\libs\algoritms\algoritms.c.obj   -c C:\Users\vladi\CLionProjects\untitled\libs\algoritms\algoritms.c
+
+CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\vladi\CLionProjects\untitled\libs\algoritms\algoritms.c > CMakeFiles\untitled.dir\libs\algoritms\algoritms.c.i
+
+CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\vladi\CLionProjects\untitled\libs\algoritms\algoritms.c -o CMakeFiles\untitled.dir\libs\algoritms\algoritms.c.s
+
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles/untitled.dir/main.c.obj"
+"CMakeFiles/untitled.dir/main.c.obj" \
+"CMakeFiles/untitled.dir/libs/data_structures/matrix/matrix.c.obj" \
+"CMakeFiles/untitled.dir/libs/algoritms/array/array.c.obj" \
+"CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled.exe: CMakeFiles/untitled.dir/main.c.obj
+untitled.exe: CMakeFiles/untitled.dir/libs/data_structures/matrix/matrix.c.obj
+untitled.exe: CMakeFiles/untitled.dir/libs/algoritms/array/array.c.obj
+untitled.exe: CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.obj
 untitled.exe: CMakeFiles/untitled.dir/build.make
+untitled.exe: libs/data_structures/libdata_structures.a
+untitled.exe: libs/algoritms/libalgoritms.a
 untitled.exe: CMakeFiles/untitled.dir/linklibs.rsp
 untitled.exe: CMakeFiles/untitled.dir/objects1.rsp
 untitled.exe: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable untitled.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

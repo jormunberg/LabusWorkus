@@ -122,6 +122,113 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
+#=============================================================================
+# Target rules for targets named data_structures
+
+# Build rule for target.
+data_structures: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 data_structures
+.PHONY : data_structures
+
+# fast build rule for target.
+data_structures/fast:
+	$(MAKE) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/build
+.PHONY : data_structures/fast
+
+#=============================================================================
+# Target rules for targets named algoritms
+
+# Build rule for target.
+algoritms: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 algoritms
+.PHONY : algoritms
+
+# fast build rule for target.
+algoritms/fast:
+	$(MAKE) -f libs\algoritms\CMakeFiles\algoritms.dir\build.make libs/algoritms/CMakeFiles/algoritms.dir/build
+.PHONY : algoritms/fast
+
+libs/algoritms/algoritms.obj: libs/algoritms/algoritms.c.obj
+
+.PHONY : libs/algoritms/algoritms.obj
+
+# target to build an object file
+libs/algoritms/algoritms.c.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.obj
+.PHONY : libs/algoritms/algoritms.c.obj
+
+libs/algoritms/algoritms.i: libs/algoritms/algoritms.c.i
+
+.PHONY : libs/algoritms/algoritms.i
+
+# target to preprocess a source file
+libs/algoritms/algoritms.c.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.i
+.PHONY : libs/algoritms/algoritms.c.i
+
+libs/algoritms/algoritms.s: libs/algoritms/algoritms.c.s
+
+.PHONY : libs/algoritms/algoritms.s
+
+# target to generate assembly for a file
+libs/algoritms/algoritms.c.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.s
+.PHONY : libs/algoritms/algoritms.c.s
+
+libs/algoritms/array/array.obj: libs/algoritms/array/array.c.obj
+
+.PHONY : libs/algoritms/array/array.obj
+
+# target to build an object file
+libs/algoritms/array/array.c.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libs/algoritms/array/array.c.obj
+.PHONY : libs/algoritms/array/array.c.obj
+
+libs/algoritms/array/array.i: libs/algoritms/array/array.c.i
+
+.PHONY : libs/algoritms/array/array.i
+
+# target to preprocess a source file
+libs/algoritms/array/array.c.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libs/algoritms/array/array.c.i
+.PHONY : libs/algoritms/array/array.c.i
+
+libs/algoritms/array/array.s: libs/algoritms/array/array.c.s
+
+.PHONY : libs/algoritms/array/array.s
+
+# target to generate assembly for a file
+libs/algoritms/array/array.c.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libs/algoritms/array/array.c.s
+.PHONY : libs/algoritms/array/array.c.s
+
+libs/data_structures/matrix/matrix.obj: libs/data_structures/matrix/matrix.c.obj
+
+.PHONY : libs/data_structures/matrix/matrix.obj
+
+# target to build an object file
+libs/data_structures/matrix/matrix.c.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libs/data_structures/matrix/matrix.c.obj
+.PHONY : libs/data_structures/matrix/matrix.c.obj
+
+libs/data_structures/matrix/matrix.i: libs/data_structures/matrix/matrix.c.i
+
+.PHONY : libs/data_structures/matrix/matrix.i
+
+# target to preprocess a source file
+libs/data_structures/matrix/matrix.c.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libs/data_structures/matrix/matrix.c.i
+.PHONY : libs/data_structures/matrix/matrix.c.i
+
+libs/data_structures/matrix/matrix.s: libs/data_structures/matrix/matrix.c.s
+
+.PHONY : libs/data_structures/matrix/matrix.s
+
+# target to generate assembly for a file
+libs/data_structures/matrix/matrix.c.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libs/data_structures/matrix/matrix.c.s
+.PHONY : libs/data_structures/matrix/matrix.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -158,6 +265,17 @@ help:
 	@echo ... edit_cache
 	@echo ... untitled
 	@echo ... rebuild_cache
+	@echo ... data_structures
+	@echo ... algoritms
+	@echo ... libs/algoritms/algoritms.obj
+	@echo ... libs/algoritms/algoritms.i
+	@echo ... libs/algoritms/algoritms.s
+	@echo ... libs/algoritms/array/array.obj
+	@echo ... libs/algoritms/array/array.i
+	@echo ... libs/algoritms/array/array.s
+	@echo ... libs/data_structures/matrix/matrix.obj
+	@echo ... libs/data_structures/matrix/matrix.i
+	@echo ... libs/data_structures/matrix/matrix.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

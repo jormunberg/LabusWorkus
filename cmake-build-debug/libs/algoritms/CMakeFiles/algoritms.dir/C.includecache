@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vladi/CLionProjects/untitled/libs/algoritms/algoritms.c
+algoritms.h
+C:/Users/vladi/CLionProjects/untitled/libs/algoritms/algoritms.h
+
+C:/Users/vladi/CLionProjects/untitled/libs/algoritms/algoritms.h
+
+C:/Users/vladi/CLionProjects/untitled/libs/algoritms/array/array.c
+stdio.h
+-
+limits.h
+-
+assert.h
+-
+array.h
+C:/Users/vladi/CLionProjects/untitled/libs/algoritms/array/array.h
+
+C:/Users/vladi/CLionProjects/untitled/libs/algoritms/array/array.h
+stddef.h
+-
+

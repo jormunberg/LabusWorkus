@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include "libs/data_structures/matrix/matrix.h"
+#include "libs/algoritms/array/array.h"
 
 int main() {
-    printf("Hello, World!\n");
+
     return 0;
 }
