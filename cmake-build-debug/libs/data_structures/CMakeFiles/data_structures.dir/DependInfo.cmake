@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix.c" "C:/Users/vladi/CLionProjects/untitled/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj"
+  "C:/Users/vladi/CLionProjects/untitled/libs/data_structures/string/string_.c" "C:/Users/vladi/CLionProjects/untitled/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/string/string_.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -151,6 +151,33 @@ matrix/matrix.c.s:
 	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.s
 .PHONY : matrix/matrix.c.s
 
+string/string_.obj: string/string_.c.obj
+
+.PHONY : string/string_.obj
+
+# target to build an object file
+string/string_.c.obj:
+	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/string/string_.c.obj
+.PHONY : string/string_.c.obj
+
+string/string_.i: string/string_.c.i
+
+.PHONY : string/string_.i
+
+# target to preprocess a source file
+string/string_.c.i:
+	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/string/string_.c.i
+.PHONY : string/string_.c.i
+
+string/string_.s: string/string_.c.s
+
+.PHONY : string/string_.s
+
+# target to generate assembly for a file
+string/string_.c.s:
+	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/string/string_.c.s
+.PHONY : string/string_.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -163,6 +190,9 @@ help:
 	@echo ... matrix/matrix.obj
 	@echo ... matrix/matrix.i
 	@echo ... matrix/matrix.s
+	@echo ... string/string_.obj
+	@echo ... string/string_.i
+	@echo ... string/string_.s
 .PHONY : help
 
 

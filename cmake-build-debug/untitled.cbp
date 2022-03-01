@@ -167,6 +167,12 @@
 		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/data_structures/string/string_.c">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/data_structures/string/string_.h">
+			<Option target="data_structures"/>
+		</Unit>
 		<Unit filename="C:/Users/vladi/CLionProjects/untitled/main.c">
 			<Option target="untitled"/>
 		</Unit>
