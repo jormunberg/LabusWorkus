@@ -151,6 +151,33 @@ matrix/matrix.c.s:
 	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.s
 .PHONY : matrix/matrix.c.s
 
+matrix/matrix_tasks/takes.obj: matrix/matrix_tasks/takes.c.obj
+
+.PHONY : matrix/matrix_tasks/takes.obj
+
+# target to build an object file
+matrix/matrix_tasks/takes.c.obj:
+	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix_tasks/takes.c.obj
+.PHONY : matrix/matrix_tasks/takes.c.obj
+
+matrix/matrix_tasks/takes.i: matrix/matrix_tasks/takes.c.i
+
+.PHONY : matrix/matrix_tasks/takes.i
+
+# target to preprocess a source file
+matrix/matrix_tasks/takes.c.i:
+	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix_tasks/takes.c.i
+.PHONY : matrix/matrix_tasks/takes.c.i
+
+matrix/matrix_tasks/takes.s: matrix/matrix_tasks/takes.c.s
+
+.PHONY : matrix/matrix_tasks/takes.s
+
+# target to generate assembly for a file
+matrix/matrix_tasks/takes.c.s:
+	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix_tasks/takes.c.s
+.PHONY : matrix/matrix_tasks/takes.c.s
+
 string/string_.obj: string/string_.c.obj
 
 .PHONY : string/string_.obj
@@ -178,6 +205,33 @@ string/string_.c.s:
 	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/string/string_.c.s
 .PHONY : string/string_.c.s
 
+string/tasks/tasks_string.obj: string/tasks/tasks_string.c.obj
+
+.PHONY : string/tasks/tasks_string.obj
+
+# target to build an object file
+string/tasks/tasks_string.c.obj:
+	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/string/tasks/tasks_string.c.obj
+.PHONY : string/tasks/tasks_string.c.obj
+
+string/tasks/tasks_string.i: string/tasks/tasks_string.c.i
+
+.PHONY : string/tasks/tasks_string.i
+
+# target to preprocess a source file
+string/tasks/tasks_string.c.i:
+	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/string/tasks/tasks_string.c.i
+.PHONY : string/tasks/tasks_string.c.i
+
+string/tasks/tasks_string.s: string/tasks/tasks_string.c.s
+
+.PHONY : string/tasks/tasks_string.s
+
+# target to generate assembly for a file
+string/tasks/tasks_string.c.s:
+	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/string/tasks/tasks_string.c.s
+.PHONY : string/tasks/tasks_string.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -190,9 +244,15 @@ help:
 	@echo ... matrix/matrix.obj
 	@echo ... matrix/matrix.i
 	@echo ... matrix/matrix.s
+	@echo ... matrix/matrix_tasks/takes.obj
+	@echo ... matrix/matrix_tasks/takes.i
+	@echo ... matrix/matrix_tasks/takes.s
 	@echo ... string/string_.obj
 	@echo ... string/string_.i
 	@echo ... string/string_.s
+	@echo ... string/tasks/tasks_string.obj
+	@echo ... string/tasks/tasks_string.i
+	@echo ... string/tasks/tasks_string.s
 .PHONY : help
 
 

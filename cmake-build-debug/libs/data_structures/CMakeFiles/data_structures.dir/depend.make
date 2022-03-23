@@ -4,6 +4,12 @@
 libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj: ../libs/data_structures/matrix/matrix.c
 libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj: ../libs/data_structures/matrix/matrix.h
 
+libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix_tasks/takes.c.obj: ../libs/data_structures/matrix/matrix.h
+libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix_tasks/takes.c.obj: ../libs/data_structures/matrix/matrix_tasks/takes.c
+libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix_tasks/takes.c.obj: ../libs/data_structures/matrix/matrix_tasks/takes.h
+
 libs/data_structures/CMakeFiles/data_structures.dir/string/string_.c.obj: ../libs/data_structures/string/string_.c
 libs/data_structures/CMakeFiles/data_structures.dir/string/string_.c.obj: ../libs/data_structures/string/string_.h
+
+libs/data_structures/CMakeFiles/data_structures.dir/string/tasks/tasks_string.c.obj: ../libs/data_structures/string/tasks/tasks_string.c
 

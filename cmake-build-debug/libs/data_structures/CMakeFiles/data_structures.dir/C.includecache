@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/vladi/CLionProjects/untitled/libs/data_structures/string/string_.c
-string_.h
-C:/Users/vladi/CLionProjects/untitled/libs/data_structures/string/string_.h
-ctype.h
--
+C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix.c
+matrix.h
+C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix.h
 
-C:/Users/vladi/CLionProjects/untitled/libs/data_structures/string/string_.h
+C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix.h
 assert.h
 -
 stdbool.h
@@ -25,6 +23,26 @@ malloc.h
 -
 stdlib.h
 -
-ctype.h
+
+C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix_tasks/takes.c
+takes.h
+C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix_tasks/takes.h
+
+C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix_tasks/takes.h
+assert.h
 -
+stdbool.h
+-
+stddef.h
+-
+stdio.h
+-
+malloc.h
+-
+stdlib.h
+-
+math.h
+-
+../matrix.h
+C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix.h
 

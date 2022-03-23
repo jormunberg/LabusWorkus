@@ -148,33 +148,6 @@ algoritms/fast:
 	$(MAKE) -f libs\algoritms\CMakeFiles\algoritms.dir\build.make libs/algoritms/CMakeFiles/algoritms.dir/build
 .PHONY : algoritms/fast
 
-libs/algoritms/algoritms.obj: libs/algoritms/algoritms.c.obj
-
-.PHONY : libs/algoritms/algoritms.obj
-
-# target to build an object file
-libs/algoritms/algoritms.c.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.obj
-.PHONY : libs/algoritms/algoritms.c.obj
-
-libs/algoritms/algoritms.i: libs/algoritms/algoritms.c.i
-
-.PHONY : libs/algoritms/algoritms.i
-
-# target to preprocess a source file
-libs/algoritms/algoritms.c.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.i
-.PHONY : libs/algoritms/algoritms.c.i
-
-libs/algoritms/algoritms.s: libs/algoritms/algoritms.c.s
-
-.PHONY : libs/algoritms/algoritms.s
-
-# target to generate assembly for a file
-libs/algoritms/algoritms.c.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.s
-.PHONY : libs/algoritms/algoritms.c.s
-
 libs/algoritms/array/array.obj: libs/algoritms/array/array.c.obj
 
 .PHONY : libs/algoritms/array/array.obj
@@ -267,9 +240,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... data_structures
 	@echo ... algoritms
-	@echo ... libs/algoritms/algoritms.obj
-	@echo ... libs/algoritms/algoritms.i
-	@echo ... libs/algoritms/algoritms.s
 	@echo ... libs/algoritms/array/array.obj
 	@echo ... libs/algoritms/array/array.i
 	@echo ... libs/algoritms/array/array.s

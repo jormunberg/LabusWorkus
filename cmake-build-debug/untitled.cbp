@@ -146,19 +146,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/algoritms/algoritms.c">
-			<Option target="untitled"/>
-			<Option target="algoritms"/>
-		</Unit>
-		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/algoritms/algoritms.h">
-			<Option target="untitled"/>
-		</Unit>
 		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/algoritms/array/array.c">
 			<Option target="untitled"/>
 			<Option target="algoritms"/>
 		</Unit>
 		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/algoritms/array/array.h">
 			<Option target="untitled"/>
+			<Option target="algoritms"/>
 		</Unit>
 		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix.c">
 			<Option target="untitled"/>
@@ -167,10 +161,22 @@
 		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix_tasks/takes.c">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix_tasks/takes.h">
+			<Option target="data_structures"/>
+		</Unit>
 		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/data_structures/string/string_.c">
 			<Option target="data_structures"/>
 		</Unit>
 		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/data_structures/string/string_.h">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/data_structures/string/tasks/tasks_string.c">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/vladi/CLionProjects/untitled/libs/data_structures/string/tasks/tasks_string.h">
 			<Option target="data_structures"/>
 		</Unit>
 		<Unit filename="C:/Users/vladi/CLionProjects/untitled/main.c">

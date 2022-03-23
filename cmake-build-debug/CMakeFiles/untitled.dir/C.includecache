@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/vladi/CLionProjects/untitled/libs/algoritms/array/array.h
-stddef.h
--
-
-C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix.h
-
 C:/Users/vladi/CLionProjects/untitled/main.c
+assert.h
+-
+stdlib.h
+-
 stdio.h
 -
-libs/data_structures/matrix/matrix.h
-C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix.h
-libs/algoritms/array/array.h
-C:/Users/vladi/CLionProjects/untitled/libs/algoritms/array/array.h
+stdbool.h
+-
+time.h
+-
+stdint.h
+-
 

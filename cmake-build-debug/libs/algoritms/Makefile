@@ -124,33 +124,6 @@ algoritms/fast:
 	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\algoritms\CMakeFiles\algoritms.dir\build.make libs/algoritms/CMakeFiles/algoritms.dir/build
 .PHONY : algoritms/fast
 
-algoritms.obj: algoritms.c.obj
-
-.PHONY : algoritms.obj
-
-# target to build an object file
-algoritms.c.obj:
-	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\algoritms\CMakeFiles\algoritms.dir\build.make libs/algoritms/CMakeFiles/algoritms.dir/algoritms.c.obj
-.PHONY : algoritms.c.obj
-
-algoritms.i: algoritms.c.i
-
-.PHONY : algoritms.i
-
-# target to preprocess a source file
-algoritms.c.i:
-	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\algoritms\CMakeFiles\algoritms.dir\build.make libs/algoritms/CMakeFiles/algoritms.dir/algoritms.c.i
-.PHONY : algoritms.c.i
-
-algoritms.s: algoritms.c.s
-
-.PHONY : algoritms.s
-
-# target to generate assembly for a file
-algoritms.c.s:
-	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug && $(MAKE) -f libs\algoritms\CMakeFiles\algoritms.dir\build.make libs/algoritms/CMakeFiles/algoritms.dir/algoritms.c.s
-.PHONY : algoritms.c.s
-
 array/array.obj: array/array.c.obj
 
 .PHONY : array/array.obj
@@ -187,9 +160,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... algoritms
 	@echo ... edit_cache
-	@echo ... algoritms.obj
-	@echo ... algoritms.i
-	@echo ... algoritms.s
 	@echo ... array/array.obj
 	@echo ... array/array.i
 	@echo ... array/array.s

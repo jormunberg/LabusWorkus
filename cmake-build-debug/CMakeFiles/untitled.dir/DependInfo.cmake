@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/vladi/CLionProjects/untitled/libs/algoritms/algoritms.c" "C:/Users/vladi/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/libs/algoritms/algoritms.c.obj"
   "C:/Users/vladi/CLionProjects/untitled/libs/algoritms/array/array.c" "C:/Users/vladi/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/libs/algoritms/array/array.c.obj"
   "C:/Users/vladi/CLionProjects/untitled/libs/data_structures/matrix/matrix.c" "C:/Users/vladi/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/libs/data_structures/matrix/matrix.c.obj"
   "C:/Users/vladi/CLionProjects/untitled/main.c" "C:/Users/vladi/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/main.c.obj"

@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/vladi/CLionProjects/untitled/libs/algoritms/algoritms.c" "C:/Users/vladi/CLionProjects/untitled/cmake-build-debug/libs/algoritms/CMakeFiles/algoritms.dir/algoritms.c.obj"
   "C:/Users/vladi/CLionProjects/untitled/libs/algoritms/array/array.c" "C:/Users/vladi/CLionProjects/untitled/cmake-build-debug/libs/algoritms/CMakeFiles/algoritms.dir/array/array.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

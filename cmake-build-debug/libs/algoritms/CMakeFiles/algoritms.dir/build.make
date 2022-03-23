@@ -56,22 +56,9 @@ include libs/algoritms/CMakeFiles/algoritms.dir/progress.make
 # Include the compile flags for this target's objects.
 include libs/algoritms/CMakeFiles/algoritms.dir/flags.make
 
-libs/algoritms/CMakeFiles/algoritms.dir/algoritms.c.obj: libs/algoritms/CMakeFiles/algoritms.dir/flags.make
-libs/algoritms/CMakeFiles/algoritms.dir/algoritms.c.obj: ../libs/algoritms/algoritms.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/algoritms/CMakeFiles/algoritms.dir/algoritms.c.obj"
-	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\libs\algoritms && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algoritms.dir\algoritms.c.obj   -c C:\Users\vladi\CLionProjects\untitled\libs\algoritms\algoritms.c
-
-libs/algoritms/CMakeFiles/algoritms.dir/algoritms.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algoritms.dir/algoritms.c.i"
-	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\libs\algoritms && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\vladi\CLionProjects\untitled\libs\algoritms\algoritms.c > CMakeFiles\algoritms.dir\algoritms.c.i
-
-libs/algoritms/CMakeFiles/algoritms.dir/algoritms.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algoritms.dir/algoritms.c.s"
-	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\libs\algoritms && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\vladi\CLionProjects\untitled\libs\algoritms\algoritms.c -o CMakeFiles\algoritms.dir\algoritms.c.s
-
 libs/algoritms/CMakeFiles/algoritms.dir/array/array.c.obj: libs/algoritms/CMakeFiles/algoritms.dir/flags.make
 libs/algoritms/CMakeFiles/algoritms.dir/array/array.c.obj: ../libs/algoritms/array/array.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libs/algoritms/CMakeFiles/algoritms.dir/array/array.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/algoritms/CMakeFiles/algoritms.dir/array/array.c.obj"
 	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\libs\algoritms && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algoritms.dir\array\array.c.obj   -c C:\Users\vladi\CLionProjects\untitled\libs\algoritms\array\array.c
 
 libs/algoritms/CMakeFiles/algoritms.dir/array/array.c.i: cmake_force
@@ -84,17 +71,15 @@ libs/algoritms/CMakeFiles/algoritms.dir/array/array.c.s: cmake_force
 
 # Object files for target algoritms
 algoritms_OBJECTS = \
-"CMakeFiles/algoritms.dir/algoritms.c.obj" \
 "CMakeFiles/algoritms.dir/array/array.c.obj"
 
 # External object files for target algoritms
 algoritms_EXTERNAL_OBJECTS =
 
-libs/algoritms/libalgoritms.a: libs/algoritms/CMakeFiles/algoritms.dir/algoritms.c.obj
 libs/algoritms/libalgoritms.a: libs/algoritms/CMakeFiles/algoritms.dir/array/array.c.obj
 libs/algoritms/libalgoritms.a: libs/algoritms/CMakeFiles/algoritms.dir/build.make
 libs/algoritms/libalgoritms.a: libs/algoritms/CMakeFiles/algoritms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libalgoritms.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libalgoritms.a"
 	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\libs\algoritms && $(CMAKE_COMMAND) -P CMakeFiles\algoritms.dir\cmake_clean_target.cmake
 	cd /d C:\Users\vladi\CLionProjects\untitled\cmake-build-debug\libs\algoritms && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\algoritms.dir\link.txt --verbose=$(VERBOSE)
 

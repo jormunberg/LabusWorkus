@@ -3,6 +3,7 @@
 #include <assert.h>
 #include "array.h"
 
+/*
 void inputArray_(int *const a, const size_t n) {
     for (size_t i = 0; i < n; i++)
         scanf("%d", &a[i]);
@@ -36,7 +37,7 @@ void insert_(int *const a, size_t *const n, const size_t pos,
 }
 
 void deleteByPosSaveOrder_(int *a, size_t *n, const size_t pos) {
-    for (size_t i = pos; i < *n - 1; i++)
+    for (size_t i = pos + 1; i < *n; i++)
         a[i] = a[i + 1];
     (*n)--;
 }
@@ -84,13 +85,15 @@ void deleteIf_(int *const a, size_t *const n, int (*deletePredicate )(
         if (!deletePredicate(a[iRead])) {
             a[iWrite] = a[iRead];
             iWrite++;
+
         }
         iRead++;
     }
     *n = iWrite;
 }
 
-void forEach_(const int *source, int *dest, const size_t n, const int (*predicate )(int)) {
+void forEach_(const int *source, int *dest, const size_t n, const int (*
+predicate )(int)) {
     for (size_t i = 0; i < n; i++)
         dest[i] = predicate(source[i]);
 }
@@ -99,15 +102,23 @@ size_t binarySearch_(const int *a, size_t n, int x) {
     size_t left = 0;
     size_t right = n - 1;
     while (left <= right) {
+
         size_t middle = left + (right - left) / 2;
+
         if (a[middle] < x)
+
             left = middle + 1;
         else if (a[middle] > x)
+
             right = middle - 1;
         else
+
             return middle;
+
     }
+
     return SIZE_MAX;
+
 }
 
 size_t binarySearchMoreOrEqual_(const int *a, size_t n, int x) {
@@ -124,3 +135,4 @@ size_t binarySearchMoreOrEqual_(const int *a, size_t n, int x) {
     }
     return right;
 }
+ */

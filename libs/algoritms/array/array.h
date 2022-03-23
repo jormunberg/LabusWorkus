@@ -1,6 +1,7 @@
 #ifndef UNTITLED_ARRAY_H
 #define UNTITLED_ARRAY_H
-#include <stddef.h>
+
+# include <stddef.h>
 
 // ввод массива data размера n
 void inputArray_(int *a, size_t n);
@@ -37,6 +38,7 @@ void deleteByPosSaveOrder_(int *a, size_t *n, size_t pos);
 // размер массива data уменьшается на единицу
 void deleteByPosUnsaveOrder_(int *a, size_t *n, size_t pos);
 
+
 // возвращает значение ’истина’ если все элементы
 // массива data размера n соответствует функции-предикату predicate
 // иначе - ’ложь’
@@ -50,7 +52,7 @@ int any_(const int *a, size_t n, int (*predicate )(int));
 // применяет функцию predicate ко всем элементам массива source
 // размера n и сохраняет результат в массиве dest размера n
 void forEach_(const int *source, int *dest, size_t n, const int (*
-dicate )(int));
+predicate )(int));
 
 // возвращает количество элементов массива data размера n
 // удовлетворяющих функции-предикату predicate
@@ -61,4 +63,4 @@ int countIf_(const int *a, size_t n, int (*predicate )(int));
 // массива
 void deleteIf_(int *a, size_t *n, int (*deletePredicate )(int));
 
-#endif
+#endif //UNTITLED_ARRAY_H

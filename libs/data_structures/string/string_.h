@@ -1,5 +1,5 @@
-#ifndef UNTITLED_STRING__H
-#define UNTITLED_STRING__H
+#ifndef COURSE_STRING__H
+#define COURSE_STRING__H
 
 #include <assert.h>
 #include <stdbool.h>
@@ -19,7 +19,7 @@ char *find(char *begin, char *end, int ch);
 
 //Возвращает указатель на первый
 //символ, отличный от пробельных, расположенный на ленте памяти, начиная с begin и заканчивая ноль-символом.
-//Если символ не найден, возвращается адрес первого ноль-символа.
+// Если символ не найден, возвращается адрес первого ноль-символа.
 char *findNonSpace(char *begin);
 
 //Возвращает указатель на первый пробельный символ, расположенный на ленте памяти начиная с адреса begin
@@ -58,5 +58,4 @@ char *copyIf(char *beginSource, const char *endSource, char *beginDestination, i
 //функции.
 char *copyIfReverse(char *rbeginSource, const char *rendSource, char *beginDestination, int (*f)(int));
 
-
-#endif //UNTITLED_STRING__H
+#endif
